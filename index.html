@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Welcome to Kerala Tourism</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="https://www.keralatourism.org/images/kt/kerala-tourism-title.png?d=18122017"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >EXPERIENCE KERALA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TRAVEL CARE</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PLAN
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">WHERE TO STAY</a></li>
+                  <li><a class="dropdown-item" href="#">WHERE TO GO</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">PLAN YOUR TRIP</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >E NEWSLETTER</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- CAROSAL BEGINS -->
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://www.keralatourism.org/images/banner/desktop/heli-1920.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://www.keralatourism.org/images/banner/desktop/kuttanadu-1920x6501.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.keralatourism.org/images/banner/desktop/caravan-1920x6502.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- CAROSAL END -->
+
+      <section>
+        <div class="container">
+          <h1 class="text-center mt-4">Experience Kerala</h1>
+
+          <div class="row mt-2 g-4 justify-content-center">
+            <!-- CARD 1 BEGIN -->
+            <div class="col-12 col-xl-3 col-lg-4 col-md-6">
+              <div
+                class="card shadow-lg p-3 mb-5 bg-body rounded"
+                style="width: 100%"
+              >
+                <img
+                  src="https://www.keralatourism.org/images/homecontentimage/desktop/Theyyam2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+
+
+                    <button 
+                    id="popoverButton" 
+                    type="button" 
+                    class="btn btn-light mb-3" 
+                    data-bs-toggle="popover" 
+                    data-bs-trigger="focus" 
+                    data-bs-placement="top"
+                    title="KANNUR" 
+                    data-bs-content="Welcome to Kannur, a city that boasts of a vibrant tapestry
+                    of history, culture, tradition and natural beauty. Explore
+                    its illustrious past at well-preserved forts and historical
+                    sites, where remnants of colonial influences whisper tales
+                    of the yesteryears."
+                  >
+                  KANNUR
+                  </button>
+
+
+                            
+                  <div class="text-center">
+                    <button
+                      type="button"
+                      class="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#kannur"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 2 begin -->
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="card shadow-lg p-3 mb-5 bg-body rounded"
+                style="width: 100%"
+              >
+                <img
+                  src="https://www.keralatourism.org/images/homecontentimage/desktop/yoga5.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+
+                    <button 
+                    id="popoverButton" 
+                    type="button" 
+                    class="btn btn-light mb-3" 
+                    data-bs-toggle="popover" 
+                    data-bs-trigger="focus" 
+                    data-bs-placement="top"
+                    title="YOGA" 
+                    data-bs-content="To some, it is the practice of exercises called asanas (bodily postures), to improve body flexibility and strengthen their muscles. For some others, it is a way of relieving mental stress through the performance of body postures. It is true that yoga asanas help to make spine supple and tone up muscles and can bring…"
+                  >
+                  YOGA
+                  </button>
+               
+
+
+                  <div class="text-center">
+                    <button
+                      type="button"
+                      class="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#yoga"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 3 begins -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div
+                class="card shadow-lg p-3 mb-5 bg-body rounded"
+                style="width: 100%"
+              >
+                <img
+                  src="https://www.keralatourism.org/images/homecontentimage/desktop/ecotourism.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                    <button 
+                    id="popoverButton" 
+                    type="button" 
+                    class="btn btn-light" 
+                    data-bs-toggle="popover" 
+                    data-bs-trigger="focus" 
+                    data-bs-placement="top"
+                    title="ECOTOURISM" 
+                    data-bs-content=" Leave your worries behind and climb a mountain only to sit
+                    at the end of the hike on the green bank of a heart-shaped
+                    lake gawking at those clouds scuttling across hardly
+                    ruffling its liquid meniscus. Eco-Tourism is immense with
+                    diverse trekking packages."
+                  >
+                  ECOTOURISM
+                  </button>
+               
+
+
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">
+                   
+                  </p>
+                  <div class="text-center">
+                    <button
+                      type="button"
+                      class="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#ecotourism"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CARD 4 BEGINS -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-122">
+              <div
+                class="card mx-auto shadow-lg p-3 mb-5 bg-body rounded"
+                style="width: 100%"
+              >
+                <img
+                  src="https://www.keralatourism.org/images/homecontentimage/desktop/RT-2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                    <button 
+                    id="popoverButton" 
+                    type="button" 
+                    class="btn btn-light " 
+                    data-bs-toggle="popover" 
+                    data-bs-trigger="focus" 
+                    data-bs-placement="top"
+                    title="RESPONSIBLE TOURISM MISSION" 
+                    data-bs-content="  The Kerala Responsible Tourism Mission Society (KRTM
+                    Society) is the autonomous society working under Department
+                    of Tourism, Government of Kerala to spread and implement the
+                    ideologies and initiatives of Responsible Tourism all over
+                    the State. The Society has a Governing Body with the Tourism
+                    Minister as Chairman, Executive Committee, State and
+                    District level offices, and an autonomous authority."
+                  >
+                  RESPONSIBLE TOURISM
+                  </button>
+                   
+                  </p>
+                  <div class="text-center">
+                    <button
+                      type="button"
+                      class="btn btn-dark"
+                      data-bs-toggle="modal"
+                      data-bs-target="#responsible-tourism"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+
+        
+        <div class="container">
+            <h1 class="text-center my-4">Explore Photo Gallery</h1>
+            <div class="row justify-content-center">
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/beach.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/panorama.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/img-3.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/img-4.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/festivals.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/places-of-interest1.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mb-5 justify-content-center">
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/waterfall.jpg" alt="" class="img-fluid">
+                </div>
+                <div class=" gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/places-of-interest.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/wild-life-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/img-10.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/img-11.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="gallery-image col-lg-2 col-md-6 col-sm-12">
+                    <img src="https://www.keralatourism.org/images/homecontentimage/desktop/img-12.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+      </section>
+      
+      <footer class="bg-dark text-light pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-uppercase mb-4">About Us</h5>
+                    <p>KeralaTourism.org is the official platform of the Department of Tourism, Government of Kerala, showcasing the unparalleled beauty and vibrant culture of God's Own Country. Discover serene backwaters, stunning beaches, lush hill stations, and rich traditions. Plan your journey with us and experience the essence of Kerala's hospitality and charm.
+
+                    </p>
+                </div>
+    
+                <!-- Navigation Links -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="text-uppercase mb-4">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Gallery</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase mb-4">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033</li>
+                        <li><i class="fas fa-phone me-2"></i> +91 471 2321132</li>
+                        <li><i class="fas fa-envelope me-2"></i>info@keralatourism.org.</li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Links -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase mb-4">Connect with us</h5>
+                    <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+    
+            <div class="row mt-4">
+                <!-- Newsletter Subscription -->
+                <div class="col-lg-6 col-md-8 mx-auto text-center">
+                    <h5 class="text-uppercase mb-3">Subscribe to Our Newsletter</h5>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    
+            <hr class="mt-4" style="border-top: 1px solid rgba(255,255,255,0.2);">
+    
+            <div class="row">
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2024 Kerala Tourism. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal card1 -->
+    <div
+      class="modal fade"
+      id="kannur"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Theyyam</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              width="100%"
+              src="https://www.keralatourism.org/images/right-panel/vg-5.jpg"
+              alt=""
+            />
+            <h5 class="mt-4">A Journey of Discovery and Enchantment</h5>
+            <p>
+              Theyyam is a traditional ritualistic performance art form of
+              Kerala, India, known for its vibrant and visually striking
+              costumes, energetic dances, and spiritual significance. It is a
+              form of worship, primarily practiced in the northern regions of
+              Kerala, and is an important cultural and religious tradition for
+              the people of Kerala. The word "Theyyam" itself is believed to be
+              derived from "Daivam," meaning "god" or "deity" in Malayalam,
+              signifying that the performers embody divine beings during the
+              ritual.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a
+              href="https://www.keralatourism.org/ebrochures/kannur-e-brochure/65/2"
+            >
+              <button type="button" class="btn btn-success">Downolad</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL CARD 2 -->
+
+    <div
+      class="modal fade"
+      id="yoga"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">YOGA</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              width="100%"
+              src="https://www.keralatourism.org/images/yoga/banner1.jpg"
+              alt=""
+            />
+            <h5 class="mt-4">What is yoga</h5>
+            <p>
+              Yoga is an ancient practice that originated in India thousands of
+              years ago, combining physical postures, breath control,
+              meditation, and ethical principles to promote holistic well-being.
+              The word "yoga" comes from the Sanskrit root "yuj," meaning "to
+              unite" or "to join," symbolizing the union of body, mind, and
+              spirit. Yoga offers a wide range of benefits, from improving
+              flexibility and strength to reducing stress and enhancing mental
+              clarity. The practice encourages mindfulness and self-awareness,
+              fostering a deep connection between the practitioner and the
+              present moment. While yoga has roots in spiritual traditions, it
+              has evolved into a widely practiced discipline across the world,
+              accessible to people of all ages and fitness levels. Through
+              regular practice, yoga helps to cultivate balance, inner peace,
+              and a sense of harmony in daily life, making it a powerful tool
+              for both physical health and emotional well-being.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="https://www.keralatourism.org/yoga">
+              <button type="button" class="btn btn-success">Downolad</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL CARD 3 -->
+
+    <div
+      class="modal fade"
+      id="ecotourism"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">ECOTOURISM</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              width="100%"
+              src="https://www.keralatourism.org/images/eco-tourism/ecotourism4.jpg"
+              alt=""
+            />
+            <p class="mt-4">
+              Leave your worries behind and climb a mountain only to sit at the
+              end of the hike on the green bank of a heart-shaped lake gawking
+              at those clouds scuttling across hardly ruffling its liquid
+              meniscus. Eco-Tourism is immense with diverse trekking packages.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="https://www.keralatourism.org/ecotourism">
+              <button type="button" class="btn btn-success">Downolad</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL CARD 4 -->
+
+    <div
+      class="modal fade"
+      id="responsible-tourism"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">ECOTOURISM</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              width="100%"
+              src="https://www.keralatourism.org/responsible-tourism/images/rt-vaikom.jpg"
+              alt=""
+            />
+            <p class="mt-4">
+                The Kerala Responsible Tourism Mission Society (KRTM Society) is the autonomous society working under Department of Tourism, Government of Kerala to spread and implement the ideologies and initiatives of Responsible Tourism all over the State. The Society has a Governing Body with the Tourism Minister as Chairman, Executive Committee, State and District level offices, and an autonomous authority.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="https://www.keralatourism.org/ecotourism">
+              <button type="button" class="btn btn-success">Downolad</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL CARD 5-->
+
+    <div
+      class="modal fade"
+      id="ecotourism"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">ECOTOURISM</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              width="450px"
+              src="https://www.keralatourism.org/images/eco-tourism/ecotourism4.jpg"
+              alt=""
+            />
+            <p>
+              Leave your worries behind and climb a mountain only to sit at the
+              end of the hike on the green bank of a heart-shaped lake gawking
+              at those clouds scuttling across hardly ruffling its liquid
+              meniscus. Eco-Tourism is immense with diverse trekking packages.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <a href="https://www.keralatourism.org/ecotourism">
+              <button type="button" class="btn btn-success">Downolad</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      var popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+      var popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+      // Event listener to dismiss popover when clicking anywhere else
+      document.body.addEventListener('click', function (event) {
+        // If the clicked target is not the popover button or any of the popover's children
+        if (!document.getElementById('popoverButton').contains(event.target)) {
+          popover.hide(); // Dismiss the popover
+        }
+      });
+
+    
+    </script>
+  </body>
+</html>
